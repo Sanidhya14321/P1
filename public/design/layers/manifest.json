@@ -1,0 +1,54 @@
+{
+  "section": "hero",
+  "layers": [
+    {
+      "id": "hero-bg-deep",
+      "depthLane": "z0",
+      "speedMultiplier": 0.2,
+      "src": "/design/layers/hero-z0-bg.webp",
+      "suggestedStyle": {
+        "backgroundSize": "cover",
+        "backgroundPosition": "center",
+        "filter": "blur(8px)",
+        "opacity": 0.4
+      }
+    },
+    {
+      "id": "hero-atmosphere",
+      "depthLane": "z1",
+      "speedMultiplier": 0.4,
+      "src": "/design/layers/hero-z1-atmosphere.webp",
+      "suggestedStyle": {
+        "backgroundSize": "cover",
+        "backgroundPosition": "center",
+        "filter": "blur(4px)",
+        "opacity": 0.6
+      }
+    },
+    {
+      "id": "hero-geometry",
+      "depthLane": "z2",
+      "speedMultiplier": 0.6,
+      "src": "/design/layers/hero-z2-shapes.svg",
+      "suggestedStyle": {
+        "backgroundSize": "contain",
+        "backgroundPosition": "center",
+        "backgroundRepeat": "no-repeat"
+      }
+    },
+    {
+      "id": "hero-main-title",
+      "depthLane": "z4",
+      "speedMultiplier": 1.0,
+      "type": "text",
+      "content": "CREATIVE DEVELOPER"
+    },
+    {
+      "id": "hero-cta-floating",
+      "depthLane": "z5",
+      "speedMultiplier": 1.25,
+      "type": "ui",
+      "content": "Explore Work"
+    }
+  ]
+}
